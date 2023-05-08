@@ -5,29 +5,23 @@ body {
 
 #nombre {
     color: white;   
+    margin-left: 20px;
 }
-
-h3 {
+#titulo {
     position: absolute;
-    margin-left: 550px;
-} 
-
+    margin-top: 20px;
+    margin-left: 500px;
+}
+#opciones {
+    margin-right: 20px;
+}
+#subtitulo {
+    margin-left: 500px;
+}
 footer {
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-p {
-    margin-left: 150px;
-    margin-right: 150px;
+#imagenes {
+    padding: 30px;
 }
