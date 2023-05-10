@@ -34,6 +34,7 @@ main {
 #info {
     margin-left: 20px;
     margin-top: 20px;
+    margin-right: 20px;
     margin-bottom: 25px;
     color: white;
     font-family: 'Caveat', cursive;
@@ -43,12 +44,17 @@ main {
     width: 100%;
 }
 #texto {
+    background-color: #ee877a;
     font-size: 25px;
     font-family: 'Caveat', cursive;
     margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 25px;
     color: white;
+    display: flex;
+    text-align: center;
+    padding: 5px;
 }
 .texto-drawins {
     text-align: center;
@@ -60,8 +66,9 @@ main {
 }
 #cuerpoproyect {
     margin-top: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 #dibujo1 {
     padding-top: 20px;
@@ -79,5 +86,35 @@ main {
 #subtitulo {
     display: flex;
     text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    padding: 5px;
 }
-  
+#img-pagina {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.cont1 {
+    width: 100%;
+}
+.carousel-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#migaleria {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
