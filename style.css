@@ -9,10 +9,9 @@ main {
     background-color:#b42e30;
     margin-top: 20px
 }
-  #pie {
+#pie {
     background-color: #b42e30;
 }
-
 #nombre {
     color:white;
     margin-left: 25px;
@@ -24,10 +23,13 @@ main {
 }
 #opciones {
     margin-right: 20px;
+    margin-top: 10px;
 }
 #imagenes {
-    padding: 30px;
+    padding: 20px;
     margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 #info {
     margin-left: 20px;
@@ -35,12 +37,18 @@ main {
     margin-bottom: 25px;
     color: white;
     font-family: 'Caveat', cursive;
+    font-size: 25px;
 }
 #cuerpo img {
     width: 100%;
 }
-.texto {
+#texto {
     font-size: 25px;
+    font-family: 'Caveat', cursive;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: white;
 }
 .texto-drawins {
     text-align: center;
@@ -48,4 +56,17 @@ main {
     margin-top: 20px;
     color: white ;
     font-family: 'Caveat', cursive;
+}
+#cuerpoproyect {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+#dibujo1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 75px;
+}
+.subtitulo {
+  position: absolute;
 }

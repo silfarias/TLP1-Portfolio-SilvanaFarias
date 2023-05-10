@@ -11,26 +11,33 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    
-    <title>Silvana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+
+    <title> Proyect </title>
   </head>
 
   <body>
     <div class="container">
       <header
-        class="border border-warning-subtle border-2 rounded-4 d-flex flex-wrap justify-content-center py-3 mb-4" id="encabezado"
+        class="border border-warning-subtle border-2 rounded-4 d-flex flex-wrap justify-content-center py-3 mb-4"
+        id="encabezado"
       >
         <a
           href="index.html"
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
         >
           <span class="display-6" id="nombre"> Farías Silvana Abigail </span>
-        </a> 
+        </a>
         <ul id="opciones">
           <li class="btn btn-outline-light">
             <a href="info.html" class="nav-link"><em>ABOUT</em></a>
@@ -42,30 +49,89 @@
             <a href="proyect.html" class="nav-link"><em>PROJECTS</em></a>
           </li>
         </ul>
+      </header>
+    </div>
 
     <div class="container">
-      <main class="border border-warning-subtle border-2 rounded-4" id="cuerpo">
-        
+      <main class="border border-warning-subtle border-2 rounded-4" id="cuerpoproyect">
+        <section class="row">
+          <div class="col-md-6">
+            <h3 class="texto-drawins" id="subtitulo"> Diseño de Personajes para el cómic "Omniciente"</h3>
+            <p class="display-8" id="texto">
+              En este proyecto, tuve la oportunidad de diseñar personajes para
+              éste cómic. <br>
+              Mi tarea principal fue crear personajes únicos y memorables que
+              pudieran atraer a los lectores a la historia. Para lograrlo,
+              trabajé en colaboración con el escritor y el equipo de producción
+              para comprender mejor la trama y el universo del cómic.
+            </p>
+          </div>
+          <!--inicio carousel-->
+          <div class="col-md-6" id="con1">
+            <div id="migaleria" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img dibujos/recortes/personaje1.jpg" alt="..." class="rounded float-end" id="dibujo1">
+                </div>
+                <div class="carousel-item">
+                  <img src="img dibujos/recortes/personaje2.jpg" alt="..." class="rounded float-end" id="dibujo1">
+                </div>
+                <div class="carousel-item">
+                  <img src="img dibujos/recortes/personaje3.jpg" alt="..." class="rounded float-end" id="dibujo1">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#migaleria" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#migaleria" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+              </button>
+            </div>
+          <!--fin carousel-->
+        </section>
       </main>
     </div>
 
     <div class="container">
-      <footer class="border border-warning-subtle border-2 rounded-4 d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" id="pie">
+      <footer
+        class="border border-warning-subtle border-2 rounded-4 d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        id="pie"
+      >
         <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
           </a>
-          <span class="mb-3 mb-md-0 text-white"> © 2023 | Farías Silvana Abigail </span>
+          <span class="mb-3 mb-md-0 text-white">
+            © 2023 | Farías Silvana Abigail
+          </span>
         </div>
-    
+
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mx-4">
-          <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-github text-light fs-3"></i></a></li>
-          <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook text-light fs-3"></i></a></li>
-          <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram text-light fs-3"></i></a></li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-github text-light fs-3"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-facebook text-light fs-3"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"
+              ><i class="bi bi-instagram text-light fs-3"></i
+            ></a>
+          </li>
         </ul>
       </footer>
     </div>
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
