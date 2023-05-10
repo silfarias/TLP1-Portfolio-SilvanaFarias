@@ -107,14 +107,14 @@ main {
 .carousel-slide img {
     max-width: 100%;
     max-height: 100%;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 20px;
 }
-#migaleria {
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+
+#subtitulo-drawins {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
